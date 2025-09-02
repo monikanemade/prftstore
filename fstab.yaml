@@ -1,0 +1,7 @@
+mountpoints:
+  /:
+    url: https://content.da.live/monikanemade/prftstore/
+    type: markup
+
+folders:
+  /products/: /products/default
