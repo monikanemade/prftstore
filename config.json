@@ -2,7 +2,7 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://upgrade-p7xzi6i-f3ef32mfqsxfe.us-4.magentosite.cloud/graphql",
-      "commerce-endpoint": "https://upgrade-p7xzi6i-f3ef32mfqsxfe.us-4.magentosite.cloud/graphql",
+      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
       "headers": {
         "all": {
           "Store": "default"
@@ -11,22 +11,24 @@
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
-          "Magento-Website-Code": "base"
+          "Magento-Website-Code": "base",
+          "x-api-key": "7feda9c35c60496aad984f8dcc06a9c0",
+          "Magento-Environment-Id": "0c8579a3-5ea3-441c-b6c2-ec7e76961a11"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
-        "environment-id": "YOUR_ENVIRONMENT_ID",
-        "store-code": "main_website_store",
-        "store-id": "main_website_store",
+        "environment-id": "0c8579a3-5ea3-441c-b6c2-ec7e76961a11",
+        "store-code": "default",
+        "store-id": 1,
         "store-name": "Default Store View",
-        "store-url": "http://upgrade-p7xzi6i-f3ef32mfqsxfe.us-4.magentosite.cloud/",
+        "store-url": "https://upgrade-p7xzi6i-f3ef32mfqsxfe.us-4.magentosite.cloud",
         "store-view-code": "default",
-        "store-view-id": "default",
+        "store-view-id": 1,
         "store-view-name": "Default Store View",
         "website-code": "base",
-        "website-id": "base",
+        "website-id": 1,
         "website-name": "Main Website"
       },
       "plugins": {
