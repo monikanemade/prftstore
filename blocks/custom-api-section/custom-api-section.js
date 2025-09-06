@@ -1,12 +1,5 @@
-// This function will be called when the block is rendered
 export default async function decorate(block) {
-  // 1. Get the current product's SKU from the URL or context
-
-
-  // 2. Fetch data from your custom REST API endpoint
-
   try {
-
     // 3. Create the HTML elements to display the data
     const sectionContainer = document.createElement('div');
     sectionContainer.className = 'custom-api-section-container';
