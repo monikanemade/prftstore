@@ -8,7 +8,7 @@ export default async function decorate(block) {
     heading.textContent = 'Custom API Data Section';
 
     const dataParagraph = document.createElement('p');
-    dataParagraph.textContent = `Data from API: HELLO`; // Assuming the API returns a 'message' field
+    dataParagraph.textContent = 'Data from API: HELLO'; // Assuming the API returns a 'message' field
 
     sectionContainer.append(heading, dataParagraph);
     block.append(sectionContainer);
