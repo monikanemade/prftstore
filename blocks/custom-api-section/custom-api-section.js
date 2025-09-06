@@ -1,4 +1,4 @@
-import { getProductDetails } from '../../scripts/commercjs';
+import { getProductDetails } from  '../../scripts/commerce.js';
 
 // This function will be called when the block is rendered
 export default async function decorate(block) {
