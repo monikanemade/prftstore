@@ -1,10 +1,10 @@
-import { getProductDetails } from  '../../scripts/commerce.js';
+import { commerceEndpointWithQueryParams } from  '../../scripts/commerce.js';
+
+pdpApi.setEndpoint(await commerceEndpointWithQueryParams());
 
 // This function will be called when the block is rendered
 export default async function decorate(block) {
   // 1. Get the current product's SKU from the URL or context
-  const product = await getProductDetails();
-  const productSku = product.sku;
 
 
   // 2. Fetch data from your custom REST API endpoint
