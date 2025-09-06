@@ -6,10 +6,6 @@ export default async function decorate(block) {
   const product = await getProductDetails();
   const productSku = product.sku;
 
-  if (!productSku) {
-    // Do not render the block if there is no SKU
-    return;
-  }
 
   // 2. Fetch data from your custom REST API endpoint
 
