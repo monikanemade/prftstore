@@ -1,7 +1,3 @@
-import { commerceEndpointWithQueryParams } from  '../../scripts/commerce.js';
-
-pdpApi.setEndpoint(await commerceEndpointWithQueryParams());
-
 // This function will be called when the block is rendered
 export default async function decorate(block) {
   // 1. Get the current product's SKU from the URL or context
